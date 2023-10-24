@@ -16,6 +16,10 @@ Ilyen kézzel írt információk feldolgozásakor előfordulhatnak olyan értelm
 
 
 ## 3. Jelenlegi üzleti folyamatok leírása
+
+Jelenleg nincs olyan webes felületünk, ami olyan megfelelő dizájnnal és könnyen értelmezhető felülettel rendelkezne, aminek segítségével párhuzamosan készül statisztika, illetve játékos tanulás.
+Az adatok elemzése során felmerülő értelmezési problémákat manuálisan kellene tisztázni,ha nem készülne el a mi igényeinknek megfelelő webes felület.
+
 ## 4. Igényelt üzleti folyamatok modellje
 ## 5. A rendszerre vonatkozó szabályok 
 ## 6. Követelménylista
