@@ -5,7 +5,15 @@ Manapság általában a dokumentumok már nem szoktak kézzel íródni, hiszen e
 Ilyen kézzel írt információk feldolgozásakor előfordulhatnak olyan értelmezési problémák, amiket nehéz tisztázni. Ilyen esetekben nincs rendelkezésre álló olyan eszköz, ami segítené az olvasót az értelmezésben, illetve a szerző kézírásához hozzáférésre lenne szüksége az írás helyes értelmezésére. Ennek eredményeként a dokumentum érvénytelenné vákhat, és újraírásra lehet szükség, ami időigényes lehet.
 
 ## 2. Vágyálomrendszer leírása
-Célunk olyan statisztikát biztosítani weboldal formájában, amely segíti a különböző módon írt számok valós értékének megértését. Felmérjük, hogy adott képet ki milyen számként értelmez és ebből egy statisztikát készítünk, illetve lesz olyan része is a programunknak, ahol időre "játszhat" a felhasználó és adhatja meg, hogy ő milyen számot lát a megadott képen.
+-Célunk olyan statisztikát biztosítani weboldal formájában, amely segíti a különböző módon írt számok valós értékének megértését. Felmérjük, hogy adott képet ki milyen számként értelmez és ebből egy statisztikát készítünk, illetve lesz olyan része is a programunknak, ahol időre "játszhat" a felhasználó és adhatja meg, hogy ő milyen számot lát a megadott képen.
+
+-Célunk 2 eltérő felület létrehozása lesz, az egyikben a felhasználó segít statisztikát készteni azzal, hogy bejelöli ő milyen számként értelmezi az adott képet. Ezt egy statisztikát ábrázoló ablakban fogjuk megjeleníteni.
+-Másik felületünkön pedig egy úgynevezett játék lesz majd, aminek a teljesítésével a felhasználó pontokat gyűjthet időre.
+
+-A használathoz bejelentkezésre/regisztrációra lesz szükség.
+
+-A beírandó számot nem a fizikai billentyűzettel, hanem egy képernyőn lévővel kell bevinni.
+
 
 ## 3. Jelenlegi üzleti folyamatok leírása
 ## 4. Igényelt üzleti folyamatok modellje
