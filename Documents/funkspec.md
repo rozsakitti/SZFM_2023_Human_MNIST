@@ -15,3 +15,11 @@ Jelenleg nincs olyan webes felületünk, ami olyan megfelelő dizájnnal és kö
 Az adatok elemzése során felmerülő értelmezési problémákat manuálisan kellene tisztázni,ha nem készülne el a mi igényeinknek megfelelő webes felület.
 
 ## 4. Követelménylista
+|    ID   |            Név             |    Kifejtés    |
+|---------|:----------------------------------:|--------|
+| **K01** |   Regisztráció   |A felhasználók számára biztosított kell legyen a könnyű regisztrálási lehetőség. |
+| **K02** |    Bejelentkezés   |A regisztrált felhasználók számára biztosítani kell az egyszerű belépési lehetőséget az oldalra. |
+| **K03** |          Jelszavak titkosítása         |A felhasználók jelszavait a megfelelő titkosítás mellett kell tárolni.  |
+| **K04** |          Megfelelően látható képek          |Minden felhasználó olyan képet kapjon az adatbázisból, ami egyértelműen jól látható.  |
+| **K05** |          Pontrendszer          |A felhasználók verseny szerűen gyűjtik a pontokat és így rangsoroljuk őket.  |
+| **K06** |          Statisztikai felület          |A felhasználóknak lehetőségük van megtekinteni a statisztikai táblát.  |
