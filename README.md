@@ -1,1 +1,2 @@
-# SZFM_2023_Human_MNIST
+## A kezdo_felulet.html a legelső ahonnan indul a projekt!
+Később megírjuk a README-t
