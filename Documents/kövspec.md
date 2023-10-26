@@ -26,3 +26,4 @@ Az adatok elemzése során felmerülő értelmezési problémákat manuálisan k
 ## 7. Fejlesztői igényspecifikáció:
 ## 8. A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása
 ## 9. Fogalomszótár:
+- **MNIST database (Modified National Institute of Standards and Technology database)** - egy nagyméretű, kézzel írt számjegyek adatbázisa, amelyet általában különféle képfeldolgozó rendszerek betanítására használnak. Az adatbázist széles körben használják képzésre és tesztelésre is a gépi tanulás területén.
