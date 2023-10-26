@@ -15,6 +15,13 @@ Jelenleg nincs olyan webes felületünk, ami olyan megfelelő dizájnnal és kö
 Az adatok elemzése során felmerülő értelmezési problémákat manuálisan kellene tisztázni,ha nem készülne el a mi igényeinknek megfelelő webes felület.
 
 ## 4. Igényelt üzleti folyamatok leírása
+1. A felhasználónak regisztrációs lehetősége.
+2. Regisztráció után átkerülnek a következő oldalra, ahol eltudják dönteni, hogy egy statisztikai mrésen vegyenek részt vagy egy játékot játszanak.
+3. Bármelyik sorrendben haladhatnak, akár a játékkal kezdeni, ezt ismételten akár többször is megcsinálni vagy a mérésen részt venni.
+4. A mérésen 10-15 random képről eldönteni, hogy melyik számjegyet ábrázolja, egy számbillenytűzet segítségével.
+5. A játék esetében pontszerzésre lesz lehetőség, bizonys időhatáron belül, ami szerint rangsoroljuk a játékosokat.
+6. Mind a mérés, mind a játék eredményeit, statisztikáját meg lehet majd a későbbiekben tekinteni.
+
 
 ## 5. Követelménylista
 |    ID   |            Név             |    Kifejtés    |
