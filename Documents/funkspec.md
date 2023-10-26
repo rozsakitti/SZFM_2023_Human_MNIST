@@ -34,7 +34,35 @@ Az adatok elemzése során felmerülő értelmezési problémákat manuálisan k
 | **K06** |          Statisztikai felület          |A felhasználóknak lehetőségük van megtekinteni a statisztikai táblát.  |
 
 ## 6. A rendszer célja és nem célja
+
 ## 7. Használati esetek
+
 ## 8. Képernyőtervek
+
 ## 9. Funkció - követelmény megfeleltetés
-## 10. Fogalomszótár
+
+## 10. Áttekintés
+
+- Az oldal **regisztrációval** fog kezdődni.
+	 - Regisztrációnál a felhasználónak meg kell majd adnia a továbbiakat:
+        - Nevét
+        - Életkorát
+        - Nemét 
+	 - Amint kész vannak a regisztrációval lehetőségük van vagy egy statisztikai mérésen részt venni, vagy akár egy játék segítségével vethetik össze másokkal a gyorsaságuk és ügyességük.
+
+- **Statistzika mérés** lehetősége
+	 - Statisztikai mérés esetében 10-15 random képet fognak kapni.
+   - A felhasználónak az oldalon megjelenő számbillentyűkre kattintva meg kell adnia, hogy szerinte melyik számot látja a képen.
+   - A mérés eredményét a későbbiekben meg lehet tekinteni.
+   - A mérést bármennyiszer újra lehet csinálni.
+ 
+
+- **Játék** lehetősége
+	 - Játéknál kapnak 20 random képet.
+   - A felhasználónak az oldalon megjelenő számbillentyűkre kattintva meg kell adnia, hogy szerinte melyik számot látja a képen.
+   - 20 random kép megjelenítése után a felhasználó megkapja az eredményét.
+   - A játékot egy fix időn belül kell teljesíteni.
+   - A pontjaik és idejük alapján lesznek rangsorolva a játékosok.
+   - A rangsort a későbbiekben bármikor vissza lehet nézni.
+
+## 11. Fogalomszótár
