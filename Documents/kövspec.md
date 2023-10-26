@@ -13,6 +13,7 @@ Ilyen kézzel írt információk feldolgozásakor előfordulhatnak olyan értelm
 -A használathoz bejelentkezésre/regisztrációra lesz szükség.
 
 -A beírandó számot nem a fizikai billentyűzettel, hanem egy képernyőn lévővel kell bevinni.
+--Ennek kivitelezését alábbiak szerint képzeljük el: A képernyőn egy mini billentyűzet, gombok segítségével fogják tudni megadni a válaszaikat, a 0-tól 9-ig terjedő számok valamelyikét.
 
 
 ## 3. Jelenlegi üzleti folyamatok leírása
@@ -22,7 +23,21 @@ Az adatok elemzése során felmerülő értelmezési problémákat manuálisan k
 
 ## 4. Igényelt üzleti folyamatok modellje
 ## 5. A rendszerre vonatkozó szabályok 
+
 ## 6. Követelménylista
+|    ID   |            Név             |    Kifejtés    |
+|---------|:----------------------------------:|--------|
+| **K01** |   Könnyen üzemeltethető rendszer   |    Felnőttek, gyerekek számára is egyaránt értelmezhető rendszer kialakítása.    |
+| **K02** |    Grafikus felhasználói felület   |    Színes felület létrehozása a szórakoztathatóság érdekében.    |
+| **K03** |          Reszponzív dizájn         |    Rugalmasan megjeleníthető legyen bármilyen eszközön. Akár telefonon,számítógépen.    |
+| **K04** |          Könnyű használat          |    Gyerekek számára is könnyedén értelmezhető felület kialakítása.    |
+| **K05** |  Regisztrációs felület   |    A felhasználók számára biztosítani kel egy könnyű regisztrációs felületet.    |
+| **K06** |   Bejelentkezés  |    Regisztrált felhasználók egyszerű belépési lehetőséget kapnak.    |
+| **K07** |   Jelszavak titkosítása  |    A felhasználók jelszavait erős titkosítással védelmezzük.    |
+| **K08** |   Jól látható képek  |    Biztosítjuk, hogy a felhasználók számára jól látható képeket jelenítünk meg.    |
+| **K09** |   Pontrenszer  |    Versenyszerű pontgyűjtés és rangsorolás a felhasználók között.    |
+
+
 ## 7. Fejlesztői igényspecifikáció:
 ## 8. A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása
 ## 9. Fogalomszótár:
