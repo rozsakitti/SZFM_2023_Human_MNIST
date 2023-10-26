@@ -14,7 +14,9 @@ Ez a weboldal megfelelő lesz számunkra is egy statisztikát készíteni, hogy 
 Jelenleg nincs olyan webes felületünk, ami olyan megfelelő dizájnnal és könnyen értelmezhető felülettel rendelkezne, aminek segítségével párhuzamosan készül statisztika, illetve játékos tanulás.
 Az adatok elemzése során felmerülő értelmezési problémákat manuálisan kellene tisztázni,ha nem készülne el a mi igényeinknek megfelelő webes felület.
 
-## 4. Követelménylista
+## 4. Igényelt üzleti folyamatok leírása
+
+## 5. Követelménylista
 |    ID   |            Név             |    Kifejtés    |
 |---------|:----------------------------------:|--------|
 | **K01** |   Regisztráció   |A felhasználók számára biztosított kell legyen a könnyű regisztrálási lehetőség. |
@@ -23,3 +25,9 @@ Az adatok elemzése során felmerülő értelmezési problémákat manuálisan k
 | **K04** |          Megfelelően látható képek          |Minden felhasználó olyan képet kapjon az adatbázisból, ami egyértelműen jól látható.  |
 | **K05** |          Pontrendszer          |A felhasználók verseny szerűen gyűjtik a pontokat és így rangsoroljuk őket.  |
 | **K06** |          Statisztikai felület          |A felhasználóknak lehetőségük van megtekinteni a statisztikai táblát.  |
+
+## 6. A rendszer célja és nem célja
+## 7. Használati esetek
+## 8. Képernyőtervek
+## 9. Funkció - követelmény megfeleltetés
+## 10. Fogalomszótár
