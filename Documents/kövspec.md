@@ -13,6 +13,7 @@ Ilyen kézzel írt információk feldolgozásakor előfordulhatnak olyan értelm
 -A használathoz bejelentkezésre/regisztrációra lesz szükség.
 
 -A beírandó számot nem a fizikai billentyűzettel, hanem egy képernyőn lévővel kell bevinni.
+
 --Ennek kivitelezését alábbiak szerint képzeljük el: A képernyőn egy mini billentyűzet, gombok segítségével fogják tudni megadni a válaszaikat, a 0-tól 9-ig terjedő számok valamelyikét.
 
 
@@ -39,6 +40,28 @@ Az adatok elemzése során felmerülő értelmezési problémákat manuálisan k
 
 
 ## 7. Fejlesztői igényspecifikáció:
+
+- 7.1 Hardveres, szoftveres, illetve emberi erőforrásokkal lefejleszhető legyen a termék.
+
+- 7.2 A kommunikáció gördülékenységét biztosítani a megrendelővel.
+
+- 7.3 Megfelelően becsülhető fejlesztési idő.
+
+- 7.4 Homályos, kérdéses részek nélküli terv készítése.
+
+- 7.5 Bármiféle extra kérés vagy terv módosításról időben való tudosítás.
+
+- 7.6 Egy tiszta elképzelés arról hogy mit szeretnénk csinálni és ez alapján egy tervet készíteni.
+
+- 7.7 Nem lehetetlen határidők szabása, hogy a munka tempója normális legyen és ne legyen a minőség kárára.
+
+- 7.8 A szoftverben használt képek minősége megfelelő legyen és jogtiszták legyen.
+
+- 7.9 Pontos, precíz terv kidolgozása ami mentén haladva a fejlesztés zökkenőmentes haladása biztosítva lesz.
+
+- 7.10 Emberi erőforrás biztositása az állandó tesztelési folyamatokra.
+  
 ## 8. A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása
 ## 9. Fogalomszótár:
 - **MNIST database (Modified National Institute of Standards and Technology database)** - egy nagyméretű, kézzel írt számjegyek adatbázisa, amelyet általában különféle képfeldolgozó rendszerek betanítására használnak. Az adatbázist széles körben használják képzésre és tesztelésre is a gépi tanulás területén.
+- *Reszponzív dizájn:* Célja, hogy weboldalunk olyan kialakítással rendelkezzen, mely rugalmasan alkalmazkodik különböző böngészők képernyőjének méretéhez. 
