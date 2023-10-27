@@ -89,8 +89,19 @@
 
 ## Fizikai környezet
 
+- A rendszer Javascript nyelven fog íródni (természetesen HTML, CSS segítségével)
+- A rendszer asztali számítógépekre készül jelenleg
+- Használható Windows, Linux és MacOS rendszeren is használható
+- Bármely ismert asztali számítógépen is futó böngészőre van szükség (Google Chrome, Firefox...)
 
 ## Fejlesztői eszközök:
+
+  - Visual Studio Code
+  - Visual Studio
+  - Node.JS
+  - Github
+
+A fejlesztés során használt eszközök és technológiák magukban foglalják a Visual Studio Code-ot és a Visual Studio-t a kódszerkesztéshez, a Node.JS-t a JavaScript környezet biztosításához, valamint a GitHub-ot a verziókezeléshez és a csapatmunka támogatásához.
 
 
 ## Adatbázis terv
