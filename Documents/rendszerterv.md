@@ -57,6 +57,26 @@
 
 ### Törvényi előírások, szabványok
 
+1.	Adatvédelem és Adatvédelmi Irányelvek (GDPR):
+•	A felhasználók személyes adatainak védelméről és kezeléséről szóló európai rendelet. Biztosítani kell, hogy az adatokat biztonságosan tároljuk és kezeljük.
+
+2.	Szellemi Tulajdonjogok és Tartalomvédelem:
+•	Meg kell győződni arról, hogy a kvíz tartalma nem sért semmilyen szerzői jogot vagy más szellemi tulajdont.
+•	Nem szabad olyan alkalmazást létrehoznunk, amely bármilyen módon félrevezeti a felhasználókat.
+•	Ne próbáljuk meg más személynek vagy alkalmazásnak tettetni magunkat.
+
+3.	Spam és használhatóság:
+•	Minimális követelmény az alkalmazások felé, hogy valamilyen alapszintű funkcionalitást és tisztességes felhasználói élményt biztosítsanak.
+•	Ne omoljon össze az alkalmazás használat közben.
+
+4.	Kiskorúak Védelme:
+•	Fontos, hogy megfelelő intézkedéseket tegyünk annak érdekében, hogy a kvíz ne tartalmazzon olyan anyagokat, amelyek nem megfelelőek vagy károsak lehetnek kiskorúak számára.
+
+5.	Hozzáférési és Használati Korlátozások:
+•	Feltehetően szabályozni kell, ki használhatja az alkalmazást, valamint a felhasználókmit tehetnek és nem tehetnek.
+
+6.	Fizetések és Tranzakciók (ha alkalmazható):
+•	Ha az alkalmazásban fizetési folyamatok vannak, biztosítani kell, hogy azok biztonságosak és megfelelnek a vonatkozó jogszabályoknak.
 
 ## Funkcionális terv
 
