@@ -7,8 +7,22 @@
 
 
 ### Projekt szerepkörök
+| Név       | Szerepkör |
+|-------------|-----------|
+| Halász Kata | Programozó |
+| Rózsa Kitti | Programozó |
+| Tolvaj Péter | Programozó |
+| Kovács Dávid  | Programozó |
 
 ### Ütemterv
+
+| Feladat | Határidő |
+|---------|----------|
+| - | 2023. x |
+| - | 2023. x |
+| - | 2023. x |
+| - | 2023. x |
+| - | 2023. x |
 
 ### Mérföldkövek
 
