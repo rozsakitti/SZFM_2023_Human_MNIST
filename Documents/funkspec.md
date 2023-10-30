@@ -35,6 +35,11 @@ Az adatok elemzése során felmerülő értelmezési problémákat manuálisan k
 
 ## 6. A rendszer célja és nem célja
 
+### A rendszer céljai:
+- Olyan felület, amely könnyen kezelhető
+- Azonnali válasz feldolgozás, statisztika készítése
+- Felmérje, hogy az emberek hány %-a tudja megmondani helyesen a nehezen felismerhető képeket
+
 ## 7. Használati esetek
 
 ## 8. Képernyőtervek
