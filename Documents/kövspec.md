@@ -23,7 +23,30 @@ Jelenleg nincs olyan webes felületünk, ami olyan megfelelő dizájnnal és kö
 Az adatok elemzése során felmerülő értelmezési problémákat manuálisan kellene tisztázni,ha nem készülne el a mi igényeinknek megfelelő webes felület.
 
 ## 4. Igényelt üzleti folyamatok modellje
+### 4.1 Előkészületek
+  - 4.1.1 Regisztráció: Ahhoz, hogy részt tudjon valaki venni a mérésben, ahhoz előzetesen regisztrálnia kell az oldalunkra. Ehhez szükséges lesz legalább egy email cím, és egy jelszó párpsra
+  - 4.1.2 Bejelentkezés: Amint regisztrált a felhasználó, akkor már sikeresen be tud jelentkezni a felületre, a regisztráció során megadott email és jelszó párossal. Amint bejelentkezett, elérhetővé válik számára a rendszer által nyújtott lehetőségek.
+### 4.2 Mérési folyamat 
+  - 4.2.1 Bejelentkezett felhasználó elindítja a mérési folyamatot, ekkor a rendszer megjelenít számára 15 képet, amiről meg kell mondani, hogy pontosan milyen számot lát.
+  - 4.2.2 Amint megválaszolta a kérdéseket, akkor lehetősége van újra elvégezni egy ilyen felmérést, vagy akár egyből megtudja nézni a teljes statisztikát arról, hogy más emberek hogyan látták azokat a képeket, amiket ő is kitöltött.
+### 4.3 Játék
+  - 4.3.1 A játék megnevezést azért kapta, mert ebben a lehetőségben a felhasználó különböző "akadályok" elé lesz állítva.
+  - 4.3.2 Elsődleges játék: 3 level elérhető, 1 perces határidővel, és szintenként egyre több képre kell tudni helyesen válaszolni. Amint a felhasználó helytelen választ ad valamelyik kérdésre, akkor elvesztette a játékot.
+### 4.4 Statisztika
+  - Itt láthatóak lesznek azon képek statisztikája (hány %-ban tudják megmondani, hogy milyen szám látható a képen), amelyeket már legalább 1 ember kitöltött.
+  
 ## 5. A rendszerre vonatkozó szabályok 
+- 5.1 A webes felület alapjai a html lesz.
+  
+- 5.2 A kliens oldali funkcionalitást javascript fogja végezni.
+  
+- 5.3 A dizájn elérése érdekében css-t fogunk használni.
+
+- 5.2 Adatok tárolására adatbázist kell használni.
+
+- 5.3 Az alkalmazás alapvetően számítógépre kell optimalizálni.
+  
+- 5.4 A felhasználók adatait bizalmasan kell kezelni
 
 ## 6. Követelménylista
 |    ID   |            Név             |    Kifejtés    |
