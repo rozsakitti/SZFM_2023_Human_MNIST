@@ -88,3 +88,6 @@ Az adatok elemzése során felmerülő értelmezési problémákat manuálisan k
 ## 9. Fogalomszótár:
 - **MNIST database (Modified National Institute of Standards and Technology database)** - egy nagyméretű, kézzel írt számjegyek adatbázisa, amelyet általában különféle képfeldolgozó rendszerek betanítására használnak. Az adatbázist széles körben használják képzésre és tesztelésre is a gépi tanulás területén.
 - *Reszponzív dizájn:* Célja, hogy weboldalunk olyan kialakítással rendelkezzen, mely rugalmasan alkalmazkodik különböző böngészők képernyőjének méretéhez. 
+- *HTML:* Hypertext Markup Language rövidírése, egy leíró nyelv, amelyet weboldalak készítéséhez használunk
+- *Javascript:* Egy programozási nyelv egy objektumorientált, prototípus-alapú szkriptnyelv
+- *CSS:* Cascading Style Sheets rövidítése, a számítástechnikában egy stílusleíró nyelv, mely a HTML vagy XHTML típusú strukturált dokumentumok megjelenését írja le
