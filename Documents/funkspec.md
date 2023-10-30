@@ -71,3 +71,6 @@ Az adatok elemzése során felmerülő értelmezési problémákat manuálisan k
    - A rangsort a későbbiekben bármikor vissza lehet nézni.
 
 ## 11. Fogalomszótár
+- **MNIST database (Modified National Institute of Standards and Technology database)** - egy nagyméretű, kézzel írt számjegyek adatbázisa, amelyet általában különféle képfeldolgozó rendszerek betanítására használnak. Az adatbázist széles körben használják képzésre és tesztelésre is a gépi tanulás területén.
+- *Reszponzív dizájn:* Célja, hogy weboldalunk olyan kialakítással rendelkezzen, mely rugalmasan alkalmazkodik különböző böngészők képernyőjének méretéhez.
+  
