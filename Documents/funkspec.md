@@ -60,8 +60,9 @@ Az adatok elemzése során felmerülő értelmezési problémákat manuálisan k
 	 - Regisztrációnál a felhasználónak meg kell majd adnia a továbbiakat:
         - Nevét
         - Életkorát
-        - Nemét 
-	 - Amint kész vannak a regisztrációval lehetőségük van vagy egy statisztikai mérésen részt venni, vagy akár egy játék segítségével vethetik össze másokkal a gyorsaságuk és ügyességük.
+        - Nemét
+        - Regisztráció után szükséges bejelentkezni
+	- Amint kész vannak a bejelentkezéssel lehetőségük van vagy egy statisztikai mérésen részt venni, vagy akár egy játék segítségével vethetik össze másokkal a gyorsaságuk és ügyességük.
 
 - **Statistzika mérés** lehetősége
 	 - Statisztikai mérés esetében 10-15 random képet fognak kapni.
@@ -77,8 +78,10 @@ Az adatok elemzése során felmerülő értelmezési problémákat manuálisan k
    - A játékot egy fix időn belül kell teljesíteni.
    - A pontjaik és idejük alapján lesznek rangsorolva a játékosok.
    - A rangsort a későbbiekben bármikor vissza lehet nézni.
+   - Rossz válasz esetén a játék véget ér.
 
 ## 11. Fogalomszótár
 - **MNIST database (Modified National Institute of Standards and Technology database)** - egy nagyméretű, kézzel írt számjegyek adatbázisa, amelyet általában különféle képfeldolgozó rendszerek betanítására használnak. Az adatbázist széles körben használják képzésre és tesztelésre is a gépi tanulás területén.
 - *Reszponzív dizájn:* Célja, hogy weboldalunk olyan kialakítással rendelkezzen, mely rugalmasan alkalmazkodik különböző böngészők képernyőjének méretéhez.
+- *Platformfüggetlen:* A rendszer nem csak egy bizonyos operációs rendszeren képes működni, hanem az összes ismert rendszeren.
   
