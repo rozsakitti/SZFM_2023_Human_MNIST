@@ -51,6 +51,22 @@ A program alapvető célja, hogy számítógépen keresztül érjük el a webes 
 
 ### Üzleti folyamatok:
 
+**_1.)_** Az oldalon található regisztrációs gomb megnyomásával elkerül a regisztrációs felületre.
+
+**_2.)_** A regisztrációs felületen a felhasználónév és jelszó megadásával bekerül az adatbázisba.
+
+**_3.)_** Sikeres regisztrációt követően a bejelentkezés gomb megnyomásával átirányításra kerül a bejelentkezési felületre.
+
+**_4.)_** A bejelentkezési felületen a regisztráció során megadott adatokkal sikeres bejelentkezést hajt végre.
+
+**_5.)_** Bejelentkezést követően lehetőség van két különböző mód arra, hogy elkezdjük a felmérést. Mérés és a játék mód.
+
+**_6.)_** Mérés módban megjelenik 10-15 kérdés, amelyre válaszol a felhasználó. Folyamatos vissza jelzést kap róla, hogy sikerült eltaláni a helyes választ vagy sem.
+
+**_7.)_** Játék módban 3 szint elérhető, 1 perc van mindegyik szinten, viszont egyre több kérdés kerül megjelenítésre. Amint hibázik a felhasználó, akkor a játék véget ér.
+
+**_8.)_** Lehetőség van a válaszokból készített statisztika megnézésére is.
+
 
 ## Követelmények
 
