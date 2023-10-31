@@ -45,7 +45,15 @@ Az adatok elemzése során felmerülő értelmezési problémákat manuálisan k
 ## 8. Képernyőtervek
 
 ## 9. Funkció - követelmény megfeleltetés
+### Funkciókövetelmények megfeleltetés:
+- **Felhasználói fiókok kezelése:** Regisztráció, bejelentkezés, válaszok elmentése
+- **Platformfüggetlen működés:** A rendszer több féle operációs rendszeren is megfelelően működik. (pl.: windows, linux)
 
+### Nem Funkció-követelmény megfeleltetés:
+- Letisztult, minimalista felület
+- Egyszerűen használható kezelőfelület
+- Felhasználók adatainak biztonságos tárolása
+- 
 ## 10. Áttekintés
 
 - Az oldal **regisztrációval** fog kezdődni.
