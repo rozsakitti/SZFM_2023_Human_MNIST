@@ -2,6 +2,11 @@
 
 ## A rendszer célja
 
+A rendszer alapvető célja, hogy statisztikát készítsen arról, hogy a felhasználók mennyire ismerik fel a különböző kézzel írt számokat.
+A bejelentkezett felhasználó dönthet arról, hogy a hagyományos felmérésben vesz részt, vagy kihívásra vágyik, így a játék módban segíti a statisztika készítést.
+Rendszer céljai közt szerepel továbbá az is, hogy a felhasználók visszatérjenek később is a weboldalra, ezért egy letisztult, könnyen kezelhető felületet kell összeállítani.
+A program alapvető célja, hogy számítógépen keresztül érjük el a webes felületet.
+
 ## Projektterv
 
 
