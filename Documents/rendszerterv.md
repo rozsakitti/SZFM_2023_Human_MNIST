@@ -131,6 +131,21 @@ A fejlesztés során használt eszközök és technológiák magukban foglalják
 
 ## Implementációs terv
 
+**1.) Felhasználói interfész kialakítása:**
+- Készíteni egy regisztrációs felületet, ahol a felhasználó meg adja az adatait.
+- Készíteni egy bejelentkezés felületet, ahol a felhasználó be tud lépni.
+
+**2.) Képek megjelenítése:**
+- A képeket az az adabázisból tölti be.
+- A képeket dinamikusan jeleníti meg a felhasználói felületen.
+  
+**3.) Kérdéskezelés:**
+- Minden választ letárolunk, ellenőrizzük annak helyességét.
+- A válasz helyessége alapján a képhez tartozó statisztikát újra számítjuk.
+
+**4.) Statisztika:**
+- A felhasználó válaszainak nyomonkövetése a helyes és helytelen válaszok alapján. 
+- A mérés végén megjelennek a helyes és helytelen válaszok száma.
 
 ## Tesztterv
 
