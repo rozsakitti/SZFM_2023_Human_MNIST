@@ -118,6 +118,7 @@ A program alapvető célja, hogy számítógépen keresztül érjük el a webes 
 
 ## Fejlesztői eszközök:
 
+  - IntelliJ IDEA
   - Visual Studio Code
   - Visual Studio
   - Node.JS
