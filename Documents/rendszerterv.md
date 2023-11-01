@@ -134,6 +134,14 @@ A fejlesztés során használt eszközök és technológiák magukban foglalják
 
 ## Tesztterv
 
+Két fajta tesztet fogunk megkülönböztetni:
+
+- Egységteszt:
+  - Ezzel szükséges lefedni az üzleti logikát (ezzel biztosítva, hogy a kód az elvárt modon működik).
+- Kézi tesztelés:
+  - Ide tartozik a frontend tesztelése (megnézve, hogy azok szerepelnek a felületen amit akarunk, és úgy ahogy elvárjuk).
+  - Felhasználói élmény figyelése (Ha már a fejlesztő/tesztelő nem találja komfortosnak a felületet használva, akkor a felhasználó végképp nem fogja).
+  - Bugok keresése: Próbáljuk a programot nem az elvárt módon használni, így a le nem kezelt hibákat felfedezni.
 
 ## Telepítési terv
 
