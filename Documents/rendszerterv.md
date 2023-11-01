@@ -33,9 +33,10 @@ A program alapvető célja, hogy számítógépen keresztül érjük el a webes 
 
 | Feladat |
 |---------|
+| Adatok beszerzése |
 | A program alapvető kinézetének megléte |
-| A program a nehézségi szintnek megfelőlő játékot indít |
-| A program összegzi az elért eredményt |
+| A mérés és statisztika sikeresen működik |
+| Játék része megfelelően működik |
 | A program tesztelése |
 | A tesztlog kitöltése |
 | A program kinézetének dizájnolása |
