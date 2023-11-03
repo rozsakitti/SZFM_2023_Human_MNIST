@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/register.css" />
+    <title>Regisztráció</title>
+</head>
+<body>
+    <div id="register-modal" class="modal hidden">
+        <div class="modal-content">
+            <header>
+                <h2 id="modal-title">Regisztráció</h2>
+            </header>
+
+            <form id="modal-form" action="register.html" method="post">
+                <div class="form-group">
+                    <label for="email">Email cím:</label>
+                    <input type="text" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Jelszó:</label>
+                    <input type="password" id="password" required>
+                </div>
+            </form>
+
+            <button onclick="window.location.href='project'" class="klikkelheto-tartalom" type="submit">Regisztráció</button>
+            <button onclick="window.location.href='/'" class="klikkelheto-tartalom" type="back">Vissza</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Human_MNIST</p>
+    </footer>
+</body>
+</html>
