@@ -102,6 +102,7 @@ A program alapvető célja, hogy számítógépen keresztül érjük el a webes 
 
 ## Funkcionális terv
 
+![Flowchart%Diagram](Flowchart%20Diagram.png)
 
 ### Felhasználónak:
 
