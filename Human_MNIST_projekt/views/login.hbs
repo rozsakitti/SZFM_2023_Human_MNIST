@@ -12,9 +12,7 @@
             <header>
             <h2 id="modal-title">Bejelentkezés</h2>
         </header>
-        
-
-            <form id="modal-form" action="login.hbs" method="post">
+            <form id="modal-form" action="auth/login" method="POST">
                  <div class="form-group">
                     <label for="username">Felhasználónév:</label>
                     <input type="text" id="username" required>
@@ -23,9 +21,10 @@
                     <label for="password">Jelszó:</label>
                     <input type="password" id="password" required>
                 </div>
+
+                <button class="klikkelheto-tartalom" type="submit">Bejelentkezés</button>
+                <button onclick="window.location.href='/'" class="klikkelheto-tartalom">Vissza</button>
             </form>
-            <button onclick="window.location.href='project'" class="klikkelheto-tartalom" type="submit">Bejelentkezés</button>
-        <button onclick="window.location.href='/'" class="klikkelheto-tartalom" type="back">Vissza</button><br>
         </div>
     </div>
     <footer>
