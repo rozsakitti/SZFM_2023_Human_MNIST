@@ -8,9 +8,22 @@ Rendszer céljai közt szerepel továbbá az is, hogy a felhasználók visszaté
 A program alapvető célja, hogy számítógépen keresztül érjük el a webes felületet.
 
 ## Projektterv
+1. Felhasználói felület kialakítása:
+   - létrehozni a megfelelő regisztráció/bejelentkezés felületet
+   - elkészíteni a mérés/játék felületeket a megfelelő gombokkal és funkciókkal
+     
+2. Fájlrendszer implementálása:
+   - létrehozni a fájlrendszert, ami megfelelően kezel minden beérkező adatot, amire szükség van
+   
+3. Adatok kezelése:
+   - számon tartani a felhasználó által elért pontokat
 
+4. Hibás és helyes válaszok kezelése:
+   - megfelelően eltárolni, hogy a statisztikát el tudjuk készteni a megfelelő adatokból
 
-
+5. Nehézségi fokozatok kezelése:
+   megvalósítani a nehézségi fokozatok beállítását és tesztelését, hogy a felhasználó szint szerint fejlessze a kézírásos felismerési képességeit.
+   
 ### Projekt szerepkörök
 | Név       | Szerepkör |
 |-------------|-----------|
