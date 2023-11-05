@@ -161,7 +161,13 @@ Két fajta tesztet fogunk megkülönböztetni:
   - Bugok keresése: Próbáljuk a programot nem az elvárt módon használni, így a le nem kezelt hibákat felfedezni.
 
 ## Telepítési terv
-
+- Indítsd el a letelepített XAMP szoftvert! 
+- Ezen belül pedig az Apache és MySQL szolgáltatásokat a XAMPP vezérlőpulton keresztül.
+- Nyisd meg a PHPMyAdmin-t a böngésződben általában: [phpMyAdmin](http://localhost/phpmyadmin). -> itt szerkeszthető a már meglévő adatbázisunk, illetve adhatunk is hozzá újakat, ha szükséges.
+- Indítsd el a terminált, majd navigálj a projekt mappájába.
+- Telepítsd a projekt függőségeit a npm install parancs segítségével.
+- Indítsd el az alkalmazást a npm start paranccsal.
+- Ezután írd a bongésződbe a következőt: localhost:5000 és már működni is fog a megadott weboldal.
 
 ## Karbantartási terv
 
