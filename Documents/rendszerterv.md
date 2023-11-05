@@ -170,4 +170,15 @@ Két fajta tesztet fogunk megkülönböztetni:
 - Ezután írd a bongésződbe a következőt: localhost:5000 és már működni is fog a megadott weboldal.
 
 ## Karbantartási terv
+#### Adatbázis karbantartása:
+- Az adatbázisunkat bizonyos időközönként ellenőrizni kell, hogy meggyőződjünk a megfelelő működésről. Különösen azért fontos erre ügyelni, hogy az újonnan beregisztráló felhasználóknak, valamint a már bejelentkezett felhasználóknak is ugyanúgy működjön kellően nagy adatbázis esetén is. Figyelnünk kell arra, hogy a rendszerünk megfelelő teljesítménnyel szolgál-e kis mennyiségű, illetve nagy mennyiségű adatbázis esetén is.
+  
+- Amennyiben az adatbázisban hiba merül fel, el kell végezni a webszerver ideiglenes leállítását. Ezt követően értesíteni kell a felhasználókat a leállásról. Az adatbázis hiba kijavítása után szükséges ellenőrizni, hogy a webszerver megfelelően felismeri-e az adatbázist, és képes-e azt megfelelően kezelni.
+  
+- Ezek mellett pedig a képekkel teli MNIST adatbázis megfelelő használatát is folyamatosan biztosítanunk kell a felhasználóinknak.
 
+#### Weboldal karbantartása: 
+- Az alkalmazást lehetőség szerint felhasználói vagy megrendelői igények alapján lehet bővíteni. Ez magában foglalhatja új elemek fejlesztését, vagy meglévő elemek viselkedésének módosítását a felhasználói visszajelzések alapján. Ezeknek az igényeknek folyamatosan eleget kell tennünk, ha biztosítani szeretnénk a felhasználóink maxiális elégedettségét.
+  
+- A weboldal bővítése vagy hibajavítása esetén elegendő a frissebb állományokkal felülírni az eredeti állományokat.
+- Komplexebb vagy kompatibilitást érintő módosítások esetén javasolt a szolgáltatás ideiglenes (pár perc) szüneteltetése. Ebben az esetben nem feltétlenül szükséges a felhasználókat értesíteni a szüneteltetésről.
