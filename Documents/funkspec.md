@@ -82,6 +82,7 @@ Az adatok elemzése során felmerülő értelmezési problémákat manuálisan k
 
 ## 11. Célközönség
 Az alkalmazás célközönsége olyan felhasználók, akik szeretnének gyakorolni a kézzel írott számok felismerését. A főbb célcsoportok a következők:
+
 -Diákok: Azok, akik javítani szeretnék a kézírásukat és gyakorolni akarják a számok felismerését.
 
 -Oktatók és Pedagógusok: Azok, akik tanítják a kézírást és szeretnék segíteni tanulóikat a gyakorlásban.
