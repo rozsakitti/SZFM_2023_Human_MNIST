@@ -95,7 +95,12 @@ A program alapvető célja, hogy számítógépen keresztül érjük el a webes 
 - Felhasználói profil: A felhasználóknak lehetőséget kell biztosítaniuk a saját profiljuk szerkesztésére, például név, e-mail cím és profilkép beállítására.
 
 ### Nem funkcionális követelmények
-
+- Teljesítmény: Az alkalmazásnak hatékonyan kell működnie, és gyorsan kell válaszolnia a felhasználói interakciókra. A kézi számok felismerése ne okozzon számottevő várakozási időt.
+- Biztonság: Az alkalmazásnak megfelelő biztonsági intézkedéseket kell tartalmaznia az adatok védelme érdekében, például jelszókezelést, hitelesítést és hozzáférési jogosultságokat. Az adatoknak biztonságosan kell tárolódni az adatbázisban.
+- Skálázhatóság: Az alkalmazásnak lehetőséget kell nyújtania a bővítésre, és skálázhatónak kell lennie, hogy megbirkózzon a növekvő adatmennyiséggel és felhasználói forgalommal.
+- Adatméret és Tárhely: Az alkalmazásnak figyelembe kell vennie a felhasználók által generált adatok méretét és tárhelyigényét. Az adatbázisnak elegendő tárhelyet kell biztosítania az azonosított számok és a felhasználói profilok tárolásához.
+- Felhasználói Élmény: Az alkalmazásnak felhasználóbarát és intuitív felhasználói felülettel kell rendelkeznie, hogy a felhasználók könnyen használhassák azt.
+- Adatbázis Kapcsolódás: Az alkalmazásnak megbízható adatbáziskapcsolatokat kell biztosítania az adatok lekérdezéséhez és tárolásához. Az adatbáziskapcsolatoknak titkosítottnak kell lenniük adatai védelme érdekében.
 
 ### Törvényi előírások, szabványok
 
