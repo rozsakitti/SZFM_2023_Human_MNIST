@@ -178,6 +178,7 @@ Két fajta tesztet fogunk megkülönböztetni:
 - Ezen belül pedig az Apache és MySQL szolgáltatásokat a XAMPP vezérlőpulton keresztül.
 - Nyisd meg a PHPMyAdmin-t a böngésződben általában: [phpMyAdmin](http://localhost/phpmyadmin). -> itt szerkeszthető a már meglévő adatbázisunk, illetve adhatunk is hozzá újakat, ha szükséges.
 - Itt ha még friss telepítés akkot a phpMyAdmin felületén belépve az mnist.sql tartalmát lefuttatva hozzuk létre a helyi gépen a friss és üres adatbázist.
+- A test adatképek betöltése az adatbázisba a 'python add_images.py' parancs lefuttatásával.
 - Indítsd el a terminált, majd navigálj a projekt mappájába.
 - Telepítsd a projekt függőségeit a npm install parancs segítségével.
 - Indítsd el az alkalmazást a npm start paranccsal.
