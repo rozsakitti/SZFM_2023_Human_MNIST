@@ -85,7 +85,14 @@ A program alapvető célja, hogy számítógépen keresztül érjük el a webes 
 ## Követelmények
 
 ### Funkcionális követelmények
-
+#### Felhasználói Regisztráció és Bejelentkezés:
+- Felhasználói regisztráció: A felhasználóknak meg kell adniük a felhasználónevüket és jelszavukat a regisztráció során.
+- Bejelentkezés: A felhasználóknak be kell tudniuk jelentkezni az alkalmazásba a regisztrált felhasználói adataikkal.
+- Eredmények tárolása: Az azonosított számokat és az azonosítás időpontját az alkalmazásnak az adatbázisban kell tárolnia.
+#### Statisztika Készítése:
+- Statisztika létrehozása: Az alkalmazásnak lehetőséget kell biztosítania a felhasználóknak statisztikai adatok készítésére az azonosított számokról, például a leggyakrabban felismert számokról.
+- Felhasználói Profilkezelés:
+- Felhasználói profil: A felhasználóknak lehetőséget kell biztosítaniuk a saját profiljuk szerkesztésére, például név, e-mail cím és profilkép beállítására.
 
 ### Nem funkcionális követelmények
 
