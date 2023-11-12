@@ -85,7 +85,31 @@ Az adatok elemzése során felmerülő értelmezési problémákat manuálisan k
 - 7.10 Emberi erőforrás biztositása az állandó tesztelési folyamatokra.
   
 ## 8. A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása
-## 9. Fogalomszótár:
+
+## 9. Követelmények:
+### Hardverkövetelmények:
+Az alkalmazásnak minimális és ajánlott hardverkövetelményekkel kell rendelkeznie, hogy a felhasználók különböző eszközein hatékonyan fusson.
+
+### Operációs Rendszer:
+Az alkalmazásnak különböző operációs rendszereken kell futnia, például Windows, macOS és Linux. Az operációs rendszerrel való kompatibilitás és a támogatott rendszerek kiválasztása az alkalmazás célközönségétől és piacától függ. Például, ha az alkalmazás széles körű felhasználók számára készül, akkor fontos lehet a multiplatform támogatás, míg egy vállalati környezetben lehet, hogy csak egy operációs rendszert kell támogatnia.
+
+### Internetkapcsolat:
+Az alkalmazásnak internetkapcsolattal kell rendelkeznie a felhasználói regisztrációhoz, bejelentkezéshez és frissítések letöltéséhez.
+Kompatibilitás és Támogatott Rendszerek
+
+### Frissítések és Karbantartás:
+Az operációs rendszer gyakran frissítéseket kap, amelyek hatással lehetnek az alkalmazásra. Az alkalmazásnak képesnek kell lennie az operációs rendszer frissítésekre történő válaszadásra és az alkalmazás kompatibilitásának fenntartására az operációs rendszerrel.
+
+### Adattárolás és Adattípusok:
+Az adatbázisrendszernek támogatnia kell a különböző adattípusokat, például szöveg, szám és dátum adatokat. Az alkalmazásnak megfelelően kell definiálnia az adatbázis sémáját, amely meghatározza, hogy milyen típusú adatokat és táblákat kell tárolni.
+
+### Skálázhatóság és Teljesítmény:
+Az adatbázisrendszernek skálázhatónak kell lennie, hogy megbirkózzon a növekvő adatmennyiséggel. A teljesítmény is fontos tényező, különösen az alkalmazás gyors és hatékony működése érdekében.
+
+### Adatmigráció és Verziókezelés:
+Az adatbázisrendszer frissítésekor és változások bevezetésekor a régi adatoknak át kell migrálniuk a frissített sémához. A verziókezelés is fontos, hogy a különböző verziók közötti kompatibilitást fenntartsa.
+
+## 10. Fogalomszótár:
 - **MNIST database (Modified National Institute of Standards and Technology database)** - egy nagyméretű, kézzel írt számjegyek adatbázisa, amelyet általában különféle képfeldolgozó rendszerek betanítására használnak. Az adatbázist széles körben használják képzésre és tesztelésre is a gépi tanulás területén.
 - *Reszponzív dizájn:* Célja, hogy weboldalunk olyan kialakítással rendelkezzen, mely rugalmasan alkalmazkodik különböző böngészők képernyőjének méretéhez. 
 - *HTML:* Hypertext Markup Language rövidírése, egy leíró nyelv, amelyet weboldalak készítéséhez használunk
