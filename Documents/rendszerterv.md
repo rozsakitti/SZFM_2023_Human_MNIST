@@ -222,3 +222,13 @@ Az adatbázis kezelése, beleértve az azonosított számok és a felhasználói
 - Adatelérési Réteg
 Az adatbázisrendszerrel való kommunikáció és adatbázis műveletek végrehajtása.
 Adatbázis kapcsolatok, lekérdezések és adatmanipuláció.
+
+## Komponensek
+Az alkalmazás következő komponenseket tartalmazza:
+
+- Felhasználói Felület
+Az alkalmazás grafikus felhasználói felülete.
+A felhasználók regisztrációja, bejelentkezése, képek betöltése és statisztika megtekintése ezen a felületen történik.
+- Adatbázis
+Az azonosított számok és a felhasználói profilok tárolására használt adatbázisrendszer.
+A felhasználók regisztrációs adatok, kézi számok és statisztikai adatok tárolása ezen a komponensen keresztül történik.
