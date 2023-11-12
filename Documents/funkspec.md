@@ -83,15 +83,26 @@ Az adatok elemzése során felmerülő értelmezési problémákat manuálisan k
 ## 11. Célközönség
 Az alkalmazás célközönsége olyan felhasználók, akik szeretnének gyakorolni a kézzel írott számok felismerését. A főbb célcsoportok a következők:
 
--Diákok: Azok, akik javítani szeretnék a kézírásukat és gyakorolni akarják a számok felismerését.
+- Diákok: Azok, akik javítani szeretnék a kézírásukat és gyakorolni akarják a számok felismerését.
 
--Oktatók és Pedagógusok: Azok, akik tanítják a kézírást és szeretnék segíteni tanulóikat a gyakorlásban.
+- Oktatók és Pedagógusok: Azok, akik tanítják a kézírást és szeretnék segíteni tanulóikat a gyakorlásban.
 
--Hobbikézírók: Azok, akik a kézírást saját érdeklődésből szeretnék fejleszteni és szórakozásnak tekintik a számok felismerését.
+- Hobbikézírók: Azok, akik a kézírást saját érdeklődésből szeretnék fejleszteni és szórakozásnak tekintik a számok felismerését.
+
+## 12. Felhasználói követelmények
+### Jogosultságok:
+- Megtekintheti a felismerési eredményeket.
+- Szerkesztheti a saját profiladatait (felhasználónév, jelszó).
+- Jelszóerősség feleljen meg az alul irottaknak
+
+### Jelszóerősség
+A jelszavaknak meg kell felelniük a következő követelményeknek:
+- Legalább 8 karakter hosszúak.
+- Tartalmazzanak legalább egy kisbetűt, egy nagybetűt, egy számot és egy speciális karaktert.
+- Ne tartalmazzanak könnyen kitalálható személyes információkat (pl. felhasználónév, születési dátum).
 
 
-
-## 12. Fogalomszótár
+## 13. Fogalomszótár
 - **MNIST database (Modified National Institute of Standards and Technology database)** - egy nagyméretű, kézzel írt számjegyek adatbázisa, amelyet általában különféle képfeldolgozó rendszerek betanítására használnak. Az adatbázist széles körben használják képzésre és tesztelésre is a gépi tanulás területén.
 - *Reszponzív dizájn:* Célja, hogy weboldalunk olyan kialakítással rendelkezzen, mely rugalmasan alkalmazkodik különböző böngészők képernyőjének méretéhez.
 - *Platformfüggetlen:* A rendszer nem csak egy bizonyos operációs rendszeren képes működni, hanem az összes ismert rendszeren.
