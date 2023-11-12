@@ -80,7 +80,17 @@ Az adatok elemzése során felmerülő értelmezési problémákat manuálisan k
    - A rangsort a későbbiekben bármikor vissza lehet nézni.
    - Rossz válasz esetén a játék véget ér.
 
-## 11. Fogalomszótár
+## 11. Célközönség
+Az alkalmazás célközönsége olyan felhasználók, akik szeretnének gyakorolni a kézzel írott számok felismerését. A főbb célcsoportok a következők:
+-Diákok: Azok, akik javítani szeretnék a kézírásukat és gyakorolni akarják a számok felismerését.
+
+-Oktatók és Pedagógusok: Azok, akik tanítják a kézírást és szeretnék segíteni tanulóikat a gyakorlásban.
+
+-Hobbikézírók: Azok, akik a kézírást saját érdeklődésből szeretnék fejleszteni és szórakozásnak tekintik a számok felismerését.
+
+
+
+## 12. Fogalomszótár
 - **MNIST database (Modified National Institute of Standards and Technology database)** - egy nagyméretű, kézzel írt számjegyek adatbázisa, amelyet általában különféle képfeldolgozó rendszerek betanítására használnak. Az adatbázist széles körben használják képzésre és tesztelésre is a gépi tanulás területén.
 - *Reszponzív dizájn:* Célja, hogy weboldalunk olyan kialakítással rendelkezzen, mely rugalmasan alkalmazkodik különböző böngészők képernyőjének méretéhez.
 - *Platformfüggetlen:* A rendszer nem csak egy bizonyos operációs rendszeren képes működni, hanem az összes ismert rendszeren.
