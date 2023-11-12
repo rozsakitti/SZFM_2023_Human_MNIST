@@ -9,6 +9,8 @@ const db = dbModule.getConnection();
 const publicDirectory = path.join(__dirname, './public');
 app.use(express.static(publicDirectory));
 
+app.use('/images', express.static(path.join(__dirname, '/public/images')));
+
 app.use(express.urlencoded({extended: false}));
 app.use(express.json());
 

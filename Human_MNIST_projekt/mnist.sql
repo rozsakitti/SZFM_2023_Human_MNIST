@@ -64,3 +64,12 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+-- test tábla létrehozása az mnist adatbázis részhalmazának a tárolására
+
+create table tests (
+    testId int(255) not null auto_increment,
+    url varchar(255) not null,
+    correct tinyint not null,
+    primary key (testId)
+);
