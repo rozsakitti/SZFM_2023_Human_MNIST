@@ -209,3 +209,16 @@ Két fajta tesztet fogunk megkülönböztetni:
   
 - A weboldal bővítése vagy hibajavítása esetén elegendő a frissebb állományokkal felülírni az eredeti állományokat.
 - Komplexebb vagy kompatibilitást érintő módosítások esetén javasolt a szolgáltatás ideiglenes (pár perc) szüneteltetése. Ebben az esetben nem feltétlenül szükséges a felhasználókat értesíteni a szüneteltetésről.
+
+## Architektúra
+Az alkalmazás egy háromrétegű architektúrával rendelkezik, amely magában foglalja a következő rétegeket:
+
+- Prezentációs Réteg
+A felhasználói felület és a felhasználói interakciók kezelése.
+Felhasználói regisztráció, bejelentkezés, képek betöltése és statisztika megtekintése.
+- Logikai Réteg
+A gépi tanulási modell használata a kézi számok felismerésére.
+Az adatbázis kezelése, beleértve az azonosított számok és a felhasználói profilok tárolását.
+- Adatelérési Réteg
+Az adatbázisrendszerrel való kommunikáció és adatbázis műveletek végrehajtása.
+Adatbázis kapcsolatok, lekérdezések és adatmanipuláció.
