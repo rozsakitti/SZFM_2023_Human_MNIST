@@ -232,3 +232,15 @@ A felhasználók regisztrációja, bejelentkezése, képek betöltése és stati
 - Adatbázis
 Az azonosított számok és a felhasználói profilok tárolására használt adatbázisrendszer.
 A felhasználók regisztrációs adatok, kézi számok és statisztikai adatok tárolása ezen a komponensen keresztül történik.
+
+## Felhasználói funkciók
+
+- Regisztráció
+A felhasználók regisztrálhatnak egy fiókot az alkalmazásban, megadva a felhasználónevüket és jelszavukat.
+A regisztrációs adatokat az adatbázisban tárolják el, biztonságos jelszókezeléssel.
+- Bejelentkezés
+A felhasználók bejelentkezhetnek az alkalmazásba a felhasználónevük és jelszavuk megadásával.
+A felhasználók hozzáférhetnek a saját profiljukhoz és az alkalmazás funkcióihoz.
+- Statisztika Készítése
+Az alkalmazás egy statisztikai adatot készít az azonosított számok eloszlásáról és egyéb releváns információkról.
+A statisztikai adatokat grafikonokon jeleníti meg a felhasználók számára.
