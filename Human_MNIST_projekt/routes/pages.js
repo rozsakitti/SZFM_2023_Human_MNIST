@@ -52,3 +52,7 @@ router.get('/szint2', (req, res) => {
 router.get('/szint3', (req, res) => {
     res.render('szint3');
 });
+
+router.get('/meres', (req, res) => {
+    res.render('meres');
+});

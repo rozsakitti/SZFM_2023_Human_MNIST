@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/meres.css" />
+    <title>Human_MNIST</title>
+</head>
+<body>
+    <header>
+        <h2>Melyik számot látod a képen?</h2>
+    </header>
+        <table>
+            <tr>
+                <td>
+                    <div style="text-align: center;">
+                        <p class="kérdés_text">Első kép</p>
+                        <img id="mnistImage" src="auth/img/mnist/6_1858.jpg" width="200" height="200">
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <div id="keyboard" class="button-container">
+
+            <button type="button" onclick="answerClick(0)" class="klikkelheto-tartalom">0</button>
+            <button type="button" onclick="answerClick(1)" class="klikkelheto-tartalom">1</button>
+            <button type="button" onclick="answerClick(2)" class="klikkelheto-tartalom">2</button>
+            <button type="button" onclick="answerClick(3)" class="klikkelheto-tartalom">3</button>
+            <button type="button" onclick="answerClick(4)" class="klikkelheto-tartalom">4</button>
+            <button type="button" onclick="answerClick(5)" class="klikkelheto-tartalom">5</button>
+            <button type="button" onclick="answerClick(6)" class="klikkelheto-tartalom">6</button>
+            <button type="button" onclick="answerClick(7)" class="klikkelheto-tartalom">7</button>
+            <button type="button" onclick="answerClick(8)" class="klikkelheto-tartalom">8</button>
+            <button type="button" onclick="answerClick(9)" class="klikkelheto-tartalom">9</button>
+        </div>
+
+    <footer>
+        <p>&copy; 2023 Human_MNIST</p>
+        <img src="auth/img/mnist/6_1858.jpg" alt="6" width="20" height="20" >
+    </footer>
+<script src="meres.js"></script>
+</body>
+</html>
