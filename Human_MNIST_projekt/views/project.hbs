@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Human_MNIST</title>
     <link rel="stylesheet" href="/project.css" />
+    <title>Human_MNIST</title>
 </head>
 <body>
     <script src="project.js"></script>
@@ -13,23 +13,28 @@
     </header>
     <table>
         <tr>
-          <td>
-            <div style="text-align: center;">
-              <button onclick="window.location.href='statisztika'" class="klikkelheto-tartalom">Statisztika</button><br>
-              <img src="stat.jpg" alt="Statisztika kép" class="klikkelheto-tartalom" width="200" height="200" onclick="window.location.href='statisztika.html'">
-              <p> itt statot szamolsz..blabla ezt majd szépen megfogalmazzuk!</p>
-            </div>   
-          </td>
-          <td>
-            <div style="text-align: center;">
-              <button onclick="window.location.href='jatek'"class="klikkelheto-tartalom">Játék</button><br>
-              <img src="game.jpg" alt="Játék kép"class="klikkelheto-tartalom" width="200" height="200" onclick="window.location.href='jatek.html'">
-              <p> itt a jatek..blabla ezt majd szépen megfogalmazzuk!</p>
-            </div>   
-          </td>
+            <td>
+                <div style="text-align: center;">
+                    <button onclick="window.location.href='/statisztika'" class="klikkelheto-tartalom">Statisztika</button><br>
+                    <a href="/stat_message">
+                        <img src="stat.jpg" alt="Statisztika kép" class="klikkelheto-tartalom" width="200" height="200">
+                    </a>
+                    <p class="kep_leiras">Mi is a teszt?</p>
+                    <p class="magyarazat">(A képre kattintva részletesebb információt kaphatsz)</p>
+                </div>
+            </td>
+            <td>
+                <div style="text-align: center;">
+                    <button onclick="window.location.href='/jatek'" class="klikkelheto-tartalom">Játék</button><br>
+                    <a href="/jatek_message">
+                        <img src="game.jpg" alt="Játék kép" class="klikkelheto-tartalom" width="200" height="200">
+                    </a>
+                    <p class="kep_leiras">Mi is a játék?</p>
+                    <p class="magyarazat">(A képre kattintva részletesebb információt kaphatsz)</p>
+                </div>
+            </td>
         </tr>
-      </table>
-    
+    </table>
 
     <footer>
         <p>&copy; 2023 Human_MNIST</p>

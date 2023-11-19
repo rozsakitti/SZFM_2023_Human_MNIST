@@ -28,3 +28,11 @@ router.get("/project", authController.authenticateToken, (req, res) => {
 });
 
 module.exports = router;
+
+router.get('/stat_message', (req, res) => {
+    res.render('stat_message');
+});
+
+router.get('/jatek_message', (req, res) => {
+    res.render('jatek_message');
+});

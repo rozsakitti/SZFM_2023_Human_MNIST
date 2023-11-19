@@ -20,7 +20,17 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
     font-family: 'Franklin Gothic Medium'; 
   }
-  
+
+  .magyarazat {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .kep_leiras {
+    font-size: 23px;
+    font-weight: bold;
+  }
+
   footer {
     background-color: lightblue;
     padding: 10px;
@@ -32,8 +42,8 @@
 
   }
   button {
-    font-size: 18px;
-    padding: 10px 20px;
+    font-size: 23px;
+    padding: 15px 25px;
     background-color: lightblue;
     border-radius: 50%;
     color: white;
