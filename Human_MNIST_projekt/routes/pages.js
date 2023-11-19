@@ -36,3 +36,19 @@ router.get('/stat_message', (req, res) => {
 router.get('/jatek_message', (req, res) => {
     res.render('jatek_message');
 });
+
+router.get('/jatek', (req, res) => {
+    res.render('jatek');
+});
+
+router.get('/szint1', (req, res) => {
+    res.render('szint1');
+});
+
+router.get('/szint2', (req, res) => {
+    res.render('szint2');
+});
+
+router.get('/szint3', (req, res) => {
+    res.render('szint3');
+});
