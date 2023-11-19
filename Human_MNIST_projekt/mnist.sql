@@ -73,3 +73,10 @@ create table tests (
     correct tinyint not null,
     primary key (testId)
 );
+
+CREATE TABLE `meres` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `testID` int(11) NOT NULL,
+  `answer` int(11) NOT NULL
+);
+
