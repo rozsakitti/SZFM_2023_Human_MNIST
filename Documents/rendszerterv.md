@@ -36,11 +36,15 @@ A program alapvető célja, hogy számítógépen keresztül érjük el a webes 
 
 | Feladat | Határidő |
 |---------|----------|
-| - | 2023. x |
-| - | 2023. x |
-| - | 2023. x |
-| - | 2023. x |
-| - | 2023. x |
+| Követelményspecifikáció megírása, tervek előkészítése. | 2023. 10.02. |
+| Funkcionális specifikáció, illetve rendszerterv írása. Projekt alapjainak letétele. | 2023. 10.09. |
+| Alap felületek megírása, adatbázis létrehozása a felhasználóknak-> regisztrációs/bejelentkező felület megfelelő lekezelése, mérés és játék alapjainak elkészítése. | 2023. 10.16. |
+| Human MNIST adatbázis felhasználása a kódban, alap mérés felület elkészítése ezekkel a képekkel, illetve a 3 szint elkészítése a játék felületen.| 2023. 10.30. |
+| Projekt demo bemutatása | 2023. 11.06. |
+| Statisztika felület véglegesítésé a képekkel, illetve bemutató mérés felület megfelelő kezelése. A játék módok esetleges bővítése, minden nehézségi szint megfelelő beállítása.| 2023. 11.13. |
+| Tesztelések megírása a mérés és játék felületekhez egyaránt. | 2023. 11.20. |
+| Projekt bemutatása | 2023. 11.27. |
+
 
 ### Mérföldkövek
 
