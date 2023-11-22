@@ -56,3 +56,5 @@ router.get('/szint3', (req, res) => {
 router.get('/meres', (req, res) => {
     res.render('meres');
 });
+
+router.get("/api/meres", authController.getJsonImages);
