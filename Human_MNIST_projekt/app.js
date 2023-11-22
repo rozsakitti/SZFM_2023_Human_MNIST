@@ -29,3 +29,11 @@ app.use('/auth', require('./routes/authRoute'));
 app.listen(35000, () => {
     console.log("Server started on Port 35000");
 })
+
+// Import necessary modules and dependencies
+const meresRoute = require('./routes/pages');
+
+// ... Your other setup code ...
+
+// Use the route for handling /auth/meres
+app.use('/auth/meres', meresRoute);

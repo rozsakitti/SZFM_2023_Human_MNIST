@@ -111,3 +111,29 @@ function szukites(array) {
     }
     return array;
 }
+// Import necessary modules and dependencies
+
+exports.meres = (req, res) => {
+    const { answer } = req.body;
+
+    // Fetch the last 15 random images to determine the current image being displayed
+    db.query('SELECT * FROM images ORDER BY imagesId LIMIT 15', (error, results) => {
+        if (error) {
+            console.error('Error fetching images for determining current image:', error);
+            return res.status(500).send("Error fetching images");
+        }
+
+        // Assuming the images are shuffled and the first image is currently displayed
+        const currentImageId = results[0].imagesId;
+
+        // Insert the answer into the 'meres' table
+        db.query('INSERT INTO meres SET ?', { imagesId: currentImageId, answer }, (error, results) => {
+            if (error) {
+                console.log(error);
+                return res.status(500).send("Error inserting answer into the database");
+            } else {
+                res.redirect(/* Redirect to the appropriate page after submission */);
+            }
+        });
+    });
+};

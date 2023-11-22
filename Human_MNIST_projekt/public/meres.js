@@ -14,7 +14,7 @@ function showNextImage() {
 
 function answerClick(answer) {
     console.log("User selected answer: " + answer);
-    showNextImage();
+    document.getElementById('selectedAnswer').value = answer;
 }
 
 document.addEventListener('DOMContentLoaded', function () {

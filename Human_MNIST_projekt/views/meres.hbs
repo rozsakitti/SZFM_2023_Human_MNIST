@@ -11,18 +11,19 @@
     <header>
         <h2>Melyik számot látod a képen?</h2>
     </header>
-        <table>
-            <tr>
-                <td>
-                    <div style="text-align: center;">
-                        <img id="mnistImage" alt="Random Image">
-                    </div>
-                </td>
-            </tr>
-        </table>
+    <table>
+        <tr>
+            <td>
+                <div style="text-align: center;">
+                    <img id="mnistImage" alt="Random Image">
+                </div>
+            </td>
+        </tr>
+    </table>
 
-        <div id="keyboard" class="button-container">
-
+    <div id="keyboard" class="button-container">
+        <form id="modal-form" action="/auth/meres" method="POST">
+            <!-- Buttons for selecting answers -->
             <button type="button" onclick="answerClick(0)" class="klikkelheto-tartalom">0</button>
             <button type="button" onclick="answerClick(1)" class="klikkelheto-tartalom">1</button>
             <button type="button" onclick="answerClick(2)" class="klikkelheto-tartalom">2</button>
@@ -33,7 +34,14 @@
             <button type="button" onclick="answerClick(7)" class="klikkelheto-tartalom">7</button>
             <button type="button" onclick="answerClick(8)" class="klikkelheto-tartalom">8</button>
             <button type="button" onclick="answerClick(9)" class="klikkelheto-tartalom">9</button>
-        </div>
+
+            <!-- Hidden input field to capture the selected answer -->
+            <input type="hidden" id="selectedAnswer" name="answer" value="">
+
+            <!-- Submit button -->
+            <button type="submit" class="klikkelheto-tartalom">Submit Answer</button>
+        </form>
+    </div>
 
     <footer>
         <p>&copy; 2023 Human_MNIST</p>

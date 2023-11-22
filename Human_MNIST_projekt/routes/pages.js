@@ -57,4 +57,8 @@ router.get('/meres', (req, res) => {
     res.render('meres');
 });
 
+router.get("/auth/meres", (req, res) => {
+    res.render("meres");
+});
+
 router.get("/api/meres", authController.getJsonImages);
