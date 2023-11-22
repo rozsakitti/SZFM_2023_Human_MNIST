@@ -20,7 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Adatbázis: `mnist`
 --
-
+CREATE DATABASE IF NOT EXISTS `mnist` DEFAULT CHARACTER SET utf8 COLLATE utf8_hungarian_ci;
+USE `mnist`;
 -- --------------------------------------------------------
 
 --
