@@ -111,8 +111,6 @@ function szukites(array) {
     }
     return array;
 }
-// Import necessary modules and dependencies
-
 exports.meres = (req, res) => {
     const { answer } = req.body;
 
@@ -132,7 +130,7 @@ exports.meres = (req, res) => {
                 console.log(error);
                 return res.status(500).send("Error inserting answer into the database");
             } else {
-                res.redirect(/* Redirect to the appropriate page after submission */);
+                res.redirect('./meres');
             }
         });
     });
