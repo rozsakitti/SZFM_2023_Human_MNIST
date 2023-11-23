@@ -9,7 +9,11 @@
 </head>
 <body>
     <header>
-        <h2>Melyik számot látod a képen?</h2>
+        <h2>
+            Melyik számot látod a képen?<br>
+            <span id="currentIndex"></span>. kép:
+        </h2>
+
     </header>
     <table>
         <tr>
@@ -35,12 +39,12 @@
             <button type="button" onclick="answerClick(8)" class="klikkelheto-tartalom">8</button>
             <button type="button" onclick="answerClick(9)" class="klikkelheto-tartalom">9</button>
 
-
             <input type="hidden" id="selectedAnswer" name="answer" value="">
-
-
-            <button type="submit" class="klikkelheto-tartalom">Submit Answer</button>
         </form>
+    </div>
+
+    <div class="visszagomb">
+        <button onclick="window.location.href='meres_eredmenyei'" class="klikkelheto-tartalom button-container">Mérés eredményei</button><br>
     </div>
 
     <footer>

@@ -11,7 +11,7 @@ app.use(express.static(publicDirectory));
 
 app.use('/images', express.static(path.join(__dirname, '/public/images')));
 
-app.use(express.urlencoded({extended: false}));
+app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 app.set('view engine', 'hbs');
@@ -36,4 +36,4 @@ const meresRoute = require('./routes/pages');
 // ... Your other setup code ...
 
 // Use the route for handling /auth/meres
-app.use('/auth/meres', meresRoute);
+app.use('/meres', meresRoute);
