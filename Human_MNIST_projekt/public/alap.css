@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    background-color: lightblue;
+    text-align: center;
+    font-size: 30px;
+    padding: 2px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Franklin Gothic Medium';
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(10, 59, 75);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+

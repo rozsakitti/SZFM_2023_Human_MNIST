@@ -6,6 +6,9 @@ function showNextImage() {
         const nextImageUrl = images[currentIndex].url;
         const imgElement = document.getElementById("mnistImage");
         imgElement.src = nextImageUrl;
+
+        document.getElementById("currentIndex").textContent = currentIndex + 1;
+
         currentIndex++;
     } else {
         console.log("No more images to display.");
@@ -14,7 +17,7 @@ function showNextImage() {
 
 function answerClick(answer) {
     console.log("User selected answer: " + answer);
-    document.getElementById('selectedAnswer').value = answer;
+    showNextImage();
 }
 
 document.addEventListener('DOMContentLoaded', function () {
