@@ -1,22 +1,22 @@
 
-body{
+body {
     background-color: white;
     text-align: center;
     flex-direction: column;
-    margin: 0; 
-  }
-  
-  header {
+    margin: 0;
+}
+
+header {
     background-color: lightblue;
     text-align: center;
-    font-size: 30px; 
+    font-size: 30px;
     padding: 2px;
-    color: white; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
-    font-family: 'Franklin Gothic Medium'; 
-  }
-  
-  footer {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Franklin Gothic Medium';
+}
+
+footer {
     background-color: lightblue;
     padding: 10px;
     text-align: center;
@@ -24,29 +24,30 @@ body{
     position: fixed;
     bottom: 0;
     width: 100%;
-  
-  }
-  button {
+}
+
+button {
     font-size: 30px;
     padding: 10px 20px;
     background-color: lightblue;
     border-radius: 50%;
     color: white;
     margin-top: 80px;
-    font-family: 'Franklin Gothic Medium'; 
-  }
-  button:hover {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.578); 
-    transform: scale(1.05);
-  }
-  
-  .klikkelheto-tartalom {
+    font-family: 'Franklin Gothic Medium';
+}
+
+    button:hover {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.578);
+        transform: scale(1.05);
+    }
+
+.klikkelheto-tartalom {
     cursor: pointer;
     margin-bottom: 10px;
-  }
-  
-table{
-    font-family: 'Franklin Gothic Medium'; 
+}
+
+table {
+    font-family: 'Franklin Gothic Medium';
 }
 
 .modal-content {

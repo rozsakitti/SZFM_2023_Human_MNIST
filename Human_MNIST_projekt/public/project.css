@@ -1,37 +1,39 @@
 
-  body{
+body {
     background-color: white;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    margin: 0; 
-  }
-  header {
+    margin: 0;
+}
+
+header {
     background-color: lightblue;
     text-align: center;
     padding: 2px;
     font-size: 25px;
     color: white;
-  }
-  header h2 {
-    text-align: center;
-    font-size: 30px; 
-    color: white; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
-    font-family: 'Franklin Gothic Medium'; 
-  }
+}
 
-  .magyarazat {
+    header h2 {
+        text-align: center;
+        font-size: 30px;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        font-family: 'Franklin Gothic Medium';
+    }
+
+.magyarazat {
     font-size: 16px;
     font-weight: bold;
-  }
+}
 
-  .kep_leiras {
+.kep_leiras {
     font-size: 23px;
     font-weight: bold;
-  }
+}
 
-  footer {
+footer {
     background-color: lightblue;
     padding: 10px;
     text-align: center;
@@ -39,28 +41,32 @@
     position: fixed;
     bottom: 0;
     width: 100%;
+}
 
-  }
-  button {
+button {
     font-size: 23px;
     padding: 15px 25px;
     background-color: lightblue;
     border-radius: 50%;
     color: white;
     margin-top: 10px;
-    font-family: 'Franklin Gothic Medium'; 
-  }
-  button:hover {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.578); 
+    font-family: 'Franklin Gothic Medium';
+}
+
+    button:hover {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.578);
+        transform: scale(1.05);
+    }
+
+img:hover {
     transform: scale(1.05);
-  }
-  img:hover{
-    transform: scale(1.05);
-  }
-  .klikkelheto-tartalom {
+}
+
+.klikkelheto-tartalom {
     cursor: pointer;
     margin-bottom: 10px;
-  }
-table{
-    font-family: 'Franklin Gothic Medium'; 
+}
+
+table {
+    font-family: 'Franklin Gothic Medium';
 }
