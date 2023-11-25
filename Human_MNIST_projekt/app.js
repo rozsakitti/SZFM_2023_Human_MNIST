@@ -1,19 +1,35 @@
-function answerClick(number) {
-    clickCounts[number]++;
-    updateStatistics();
+const express = require("express");
+const path = require('path');
 
-    // Send the updated clickCounts to the server
-    fetch('/meres', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ clickCounts }),
-    })
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Failed to update click counts on the server');
-            }
-        })
-        .catch(error => console.error('Error updating click counts on the server:', error));
-}
+const app = express();
+
+const dbModule = require('./db');
+const db = dbModule.getConnection();
+
+const publicDirectory = path.join(__dirname, './public');
+app.use(express.static(publicDirectory));
+
+app.use('/images', express.static(path.join(__dirname, '/public/images')));
+
+app.use(express.urlencoded({ extended: false }));
+app.use(express.json());
+
+app.set('view engine', 'hbs');
+db.connect((error) => {
+    if (error) {
+        console.log(error)
+    } else {
+        console.log("MYSQL Connected...")
+    }
+})
+
+app.use('/', require('./routes/pages'));
+app.use('/auth', require('./routes/authRoute'));
+
+app.listen(35000, () => {
+    console.log("Server started on Port 35000");
+})
+
+const meresRoute = require('./routes/pages');
+
+app.use('/meres', meresRoute);
