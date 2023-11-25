@@ -10086,6 +10086,13 @@ CREATE TABLE `users` (
   `password` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
 
+CREATE TABLE meresresult (
+  `ID` int(255) AUTO_INCREMENT primary key NOT NULL,
+  `pictureurl` varchar(255) NOT NULL,
+  `answer` int(11) NOT NULL,
+  `UID` int(255) not null,
+  `testID` bigint
+);
 --
 -- A tábla adatainak kiíratása `users`
 --

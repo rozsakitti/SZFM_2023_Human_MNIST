@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/meres.css" />
+    <title>Human_MNIST</title>
+    <script src="/meres.js"></script>
+</head>
+<body>
+    <header>
+        <h2>
+            Melyik számot látod a képen?<br>15/
+            <span id="currentIndex"></span>. kép:
+        </h2>
+
+    </header>
+    <table>
+        <tr>
+            <td>
+                <div style="text-align: center;">
+                    <img id="mnistImage" alt="Random Image">
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <div id="keyboard" class="button-container">
+        <form id="modal-form" action="/auth/meres" method="POST">
+
+            <button type="button" onclick="answerClick(0)" class="klikkelheto-tartalom">0</button>
+            <button type="button" onclick="answerClick(1)" class="klikkelheto-tartalom">1</button>
+            <button type="button" onclick="answerClick(2)" class="klikkelheto-tartalom">2</button>
+            <button type="button" onclick="answerClick(3)" class="klikkelheto-tartalom">3</button>
+            <button type="button" onclick="answerClick(4)" class="klikkelheto-tartalom">4</button>
+            <button type="button" onclick="answerClick(5)" class="klikkelheto-tartalom">5</button>
+            <button type="button" onclick="answerClick(6)" class="klikkelheto-tartalom">6</button>
+            <button type="button" onclick="answerClick(7)" class="klikkelheto-tartalom">7</button>
+            <button type="button" onclick="answerClick(8)" class="klikkelheto-tartalom">8</button>
+            <button type="button" onclick="answerClick(9)" class="klikkelheto-tartalom">9</button>
+
+            <input type="hidden" id="selectedAnswer" name="answer" value="">
+        </form>
+    </div>
+
+    <div class="visszagomb">
+        <button onclick="window.location.href='meres_eredmenyei'" class="klikkelheto-tartalom button-container">Mérés eredményei</button><br>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Human_MNIST</p>
+    </footer>
+</body>
+</html>

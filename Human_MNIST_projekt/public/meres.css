@@ -64,6 +64,10 @@ button {
     margin: 0 10px;
 }
 
+button:hover {
+    color: rgb(89, 50, 205);
+  }
+
 .visszagomb {
     margin: auto;
     margin-bottom: 200px;

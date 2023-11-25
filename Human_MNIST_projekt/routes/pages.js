@@ -60,8 +60,11 @@ router.get('/meres', (req, res) => {
 
 router.get("/api/meres", authController.getJsonImages);
 
-router.get("/meres_eredmenyei", (req, res) => {
+router.get("/meres_eredmenyei2", (req, res) => {
     res.render('meres_eredmenyei');
 
 });
 
+router.get('/meres_eredmenyei', (req, res) => {
+    res.render('meres_tablazat');
+});

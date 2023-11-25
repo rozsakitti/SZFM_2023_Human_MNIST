@@ -1,36 +1,95 @@
 let images = []; // Array to store image names
-let currentIndex;
+let currentIndex = 0;
 
-function showNextImage() {
-    if (currentIndex < images.length) {
-        const nextImageUrl = images[currentIndex].url;
-        const imgElement = document.getElementById("mnistImage");
-        imgElement.src = nextImageUrl;
+//const button = document.getElementById('btn');
 
-        document.getElementById("currentIndex").textContent = currentIndex + 1;
+//button.addEventListener('click', event => {
+//    console.log('button clicked');
+//});
 
-        currentIndex++;
-    } else {
-        console.log("No more images to display.");
-    }
+
+
+
+//document.getElementById("result").value = filename;
+buttonHandler()
+GetImageName()
+
+function buttonHandler() {
+    var points = 0;
+    var sumpoints = 0;
+    var allButtons = document.querySelectorAll('button[class=klikkelheto-tartalom]');
+    console.log("found it", allButtons.length);
+    var clicked;
+    var uniqdate = Date.now();
+
+    for (var i = 0; i < allButtons.length; i++) {
+        allButtons[i].addEventListener('click', function() {
+        clicked = this.innerHTML;
+        console.log("You clicked:", clicked);
+        sumpoints=sumpoints+1
+        console.log("First letter=" + GetFirstLetter(document.getElementById("mnistImage").src))
+        console.log("GetImageName" + GetImageName())
+        if (this.innerHTML == GetImageName()) {
+            points=points+1
+            console.log("asd" + points)
+
+        }
+        fetchData().then(arr => {
+            var pic_url = arr[getRandomInt(5000)]
+            var prev_pic = document.getElementById("mnistImage").src
+            document.getElementById("mnistImage").src="auth/img/mnist/" + pic_url
+            console.log(pic_url)
+            InsertData(prev_pic.split('\\').pop().split('/').pop(), clicked, uniqdate)
+        });
+        console.log(points + "/" + sumpoints)
+    });
+  }
 }
 
-function answerClick(answer) {
-    console.log("User selected answer: " + answer);
-    showNextImage();
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+  }
+
+function InsertData(url, answer, testID, uid=1) {
+    fetch('/meres', {
+        method: 'POST',
+        body: JSON.stringify({
+            pictureurl: url,
+            answer: answer,
+            UID: uid,
+            testID: testID
+        }),
+        headers: {
+            'Content-type': 'application/json; charset=UTF-8',
+        }
+
+    })
+    .then ( response => response.json() )
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-    function getImages() {
-        fetch('/api/meres')
-            .then(response => response.json())
-            .then(data => {
-                images = data.images;
-                currentIndex = 0;
-                showNextImage();
-            })
-            .catch(error => console.error('Error fetching image list:', error));
-    }
+function GetText(text) {
+    console.log("Current: " + text)
+}
 
-    getImages();
-});
+function fetchData() {
+    return fetch('/api', {})
+            .then(response =>
+                response.json());
+}
+
+//fetchData().then(arr => console.log(arr[1]));
+
+//console.log(document.getElementById("mnistImage").src)
+//console.log(document.getElementById("mnistImage").src.charAt(0))
+
+function GetImageName() {
+    filename = document.getElementById("mnistImage").src.replace(/^.*[\\\/]/, '').charAt(0);
+    return filename
+    //console.log(filename)
+}
+
+function GetFirstLetter(str) {
+    str = str.split('\\').pop().split('/').pop().charAt(0)
+    return str
+    //console.log(filename)
+}
