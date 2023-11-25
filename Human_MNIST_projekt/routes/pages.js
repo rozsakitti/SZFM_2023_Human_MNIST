@@ -29,6 +29,7 @@ router.get("/project", authController.authenticateToken, (req, res) => {
     res.render("project");
 });
 
+
 router.get('/stat_message', (req, res) => {
     res.render('stat_message');
 });
@@ -41,9 +42,26 @@ router.get('/jatek', (req, res) => {
     res.render('jatek');
 });
 
+router.get('/szint1', (req, res) => {
+    res.render('szint1');
+});
+
+router.get('/szint2', (req, res) => {
+    res.render('szint2');
+});
+
+router.get('/szint3', (req, res) => {
+    res.render('szint3');
+});
+
+router.get('/meres', (req, res) => {
+    res.render('meres');
+});
+
 router.get("/api/meres", authController.getJsonImages);
 
 router.get("/meres_eredmenyei", (req, res) => {
-    res.render("meres_eredmenyei");
+    res.render('meres_eredmenyei');
+
 });
 

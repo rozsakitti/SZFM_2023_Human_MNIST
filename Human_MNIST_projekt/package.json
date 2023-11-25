@@ -20,5 +20,8 @@
     "nodaemon": "^0.0.5",
     "nodemon": "^3.0.1"
   },
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "eslint": "^8.54.0"
+  }
 }

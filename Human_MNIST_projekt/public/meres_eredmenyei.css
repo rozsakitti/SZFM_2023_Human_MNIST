@@ -1,0 +1,62 @@
+#statistics {
+    text-align: center;
+}
+
+    #statistics table {
+        padding: 20px;
+        border: 2px solid rgb(55, 140, 169);
+        text-align: center;
+        margin: auto;
+    }
+
+    #statistics th, #statistics td {
+        padding: 10px;
+        border: 1px solid rgb(55, 140, 169);
+        background-color: rgb(222, 247, 255);
+        text-align: center;
+    }
+
+    #statistics th {
+        font-size: 18px;
+    }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+footer {
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+button {
+    padding: 15px;
+    border: 3px solid rgb(10, 59, 75);
+    border-radius: 8px;
+    background-color: rgb(222, 247, 255);
+    text-align: center;
+}
+
+    button:hover {
+        box-shadow: -1px -2px 5px 4px rgba(0, 0, 0, 0.16);
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+
+.text {
+    color: #333333;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+}

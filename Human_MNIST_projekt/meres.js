@@ -1,8 +1,6 @@
 function answerClick(number) {
     clickCounts[number]++;
     updateStatistics();
-
-    // Send the updated clickCounts to the server
     fetch('/meres', {
         method: 'POST',
         headers: {
@@ -17,3 +15,14 @@ function answerClick(number) {
         })
         .catch(error => console.error('Error updating click counts on the server:', error));
 }
+function showNextImage(imageUrl) {
+    const mnistImage = document.getElementById('mnistImage');
+
+    if (mnistImage) {
+        mnistImage.src = imageUrl;
+    } else {
+        console.error('Image element not found.');
+    }
+}
+
+showNextImage('exampleImageUrl');
