@@ -28,7 +28,7 @@ A program alapvető célja, hogy számítógépen keresztül érjük el a webes 
 | Név       | Szerepkör |
 |-------------|-----------|
 | Halász Kata | Programozó |
-| Rózsa Kitti | Programozó |
+| Rózsa Kitti Evelin | Programozó |
 | Tolvaj Péter | Programozó |
 | Kovács Dávid  | Programozó |
 
