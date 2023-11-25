@@ -6,3 +6,17 @@ Az alkalmazás két fő felülettel rendelkezik: egy statisztikai mód segíti a
 ## Fejlesztői Információk
 
 Az alkalmazás HTML, JavaScript és CSS felhasználásával készült.
+
+## Fejlesztői eszközök:
+
+IntelliJ IDEA
+
+Visual Studio Code
+
+Visual Studio
+
+Node.JS
+
+Github
+
+
