@@ -10093,6 +10093,15 @@ CREATE TABLE meresresult (
   `UID` int(255) not null,
   `testID` bigint
 );
+
+CREATE TABLE jatekresult (
+  `ID` int(255) AUTO_INCREMENT primary key NOT NULL,
+  `pictureurl` varchar(255) NOT NULL,
+  `answer` int(11) NOT NULL,
+  `correct` int(11) NOT NULL,
+  `UID` int(255) not null,
+  `testID` bigint
+);
 --
 -- A tábla adatainak kiíratása `users`
 --
