@@ -38,6 +38,29 @@
 | 34 | 2023. 11.26.  | Kovács Dávid       | Merés gomb megnyomása átvezet a /meres urlre                                                         | ✅ | ✅ |
 | 35 | 2023. 11.26.  | Kovács Dávid       | Játék gomb megnyomása átvezet a /jatek urlre                                                         | ✅ | ✅ |
 | 36 | 2023. 11.26.  | Kovács Dávid       | Mérés eredményei gomb megnyomása átvezet a /meres_eredmenyei urlre                                       | ✅ | ✅ |
+| 37 | 2023. 11.26.  | Halász Kata        | Mérés oldalon megfejelően működik a css                                                              | ✅ | ✅ |
+| 38 | 2023. 11.26.  | Halász Kata        | Játék oldalon megfejelően működik a css                                                              | ✅ | ✅ |
+| 39 | 2023. 11.26.  | Halász Kata        | Project oldalon megfejelően működik a css                                                            | ✅ | ✅ |
+| 40 | 2023. 11.26.  | Halász Kata        | Mérés eredményeinek oldalán megfejelően működik a css                                                | ✅ | ✅ |
+| 41 | 2023. 11.26.  | Halász Kata        | Játék eredményeinek oldalán megfejelően működik a css                                                | ✅ | ✅ |
+| 42 | 2023. 11.26.  | Halász Kata        | A Mérés gomb alatti képre kattintva átvezet a mérés szabályaira                                      | ✅ | ✅ |
+| 43 | 2023. 11.26.  | Halász Kata        | A Játék gomb alatti képre kattintva átvezet a mérés szabályaira                                      | ✅ | ✅ |
+| 44 | 2023. 11.26.  | Halász Kata        | A Mérés szabályoknál helyesen működik a vissza gomb                                                  | ✅ | ✅ |
+| 45 | 2023. 11.26.  | Halász Kata        | A Játék szabályoknál helyesen működik a vissza gomb                                                  | ✅ | ✅ |
+| 46 | 2023. 11.26.  | Halász Kata        | A Mérés elvégzése után megfelelően bekerülnek a válaszok az adatbázisba                              | ✅ | ✅ |
+| 47 | 2023. 11.26.  | Halász Kata        | A Szint1 elvégzése után megfelelően bekerülnek a válaszok az adatbázisba                             | ✅ | ✅ |
+| 48 | 2023. 11.26.  | Halász Kata        | A Szint2 elvégzése után megfelelően bekerülnek a válaszok az adatbázisba                             | ✅ | ✅ |
+| 49 | 2023. 11.26.  | Halász Kata        | A Szint3 elvégzése után megfelelően bekerülnek a válaszok az adatbázisba                             | ✅ | ✅ |
+| 50 | 2023. 11.26.  | Halász Kata        | A Mérés oldalon megjelenő "billentyűzeten" megfelelően működik a hover                               | ✅ | ✅ |
+| 51 | 2023. 11.26.  | Halász Kata        | A Szint1 oldalon megjelenő "billentyűzeten" megfelelően működik a hover                              | ✅ | ✅ |
+| 52 | 2023. 11.26.  | Halász Kata        | A Szint2 oldalon megjelenő "billentyűzeten" megfelelően működik a hover                              | ✅ | ✅ |
+| 53 | 2023. 11.26.  | Halász Kata        | A Szint3 oldalon megjelenő "billentyűzeten" megfelelően működik a hover                              | ✅ | ✅ |
+| 54 | 2023. 11.26.  | Halász Kata        | A Mérés elvégzése közben helyesen működik a számláló, hogy hanyadik képnél járunk                    | ✅ | ✅ |
+| 55 | 2023. 11.26.  | Halász Kata        | A Szint1 elvégzése közben helyesen működik a számláló, hogy hanyadik képnél járunk                   | ✅ | ✅ |
+| 56 | 2023. 11.26.  | Halász Kata        | A Szint2 elvégzése közben helyesen működik a számláló, hogy hanyadik képnél járunk                   | ✅ | ✅ |
+| 57 | 2023. 11.26.  | Halász Kata        | A Szint3 elvégzése közben helyesen működik a számláló, hogy hanyadik képnél járunk                   | ✅ | ✅ |
+| 58 | 2023. 11.26.  | Halász Kata        | A Mérés valamint Játék szabályok képein megfelelően működik a hover                                  | ✅ | ✅ |
+
 
 
 
