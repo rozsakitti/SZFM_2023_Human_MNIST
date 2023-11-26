@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/szintek.css" />
+    <title>Human_MNIST</title>
+</head>
+<body>
+    <header>
+        <h2>
+            Melyik számot látod a képen?<br>30 /
+            <span id="currentIndex">1</span>. kép:
+        </h2>
+    </header>
+        <table>
+            <tr>
+                <td>
+                    <div style="text-align: center;">
+                        <img id="mnistImage" src="auth/img/mnist/6_1858.jpg" width="200" height="200">
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <div id="keyboard" class="button-container">
+
+            <button type="btn" id="btn" class="klikkelheto-tartalom">0</button>
+            <button type="btn" id="btn" class="klikkelheto-tartalom">1</button>
+            <button type="btn" id="btn" class="klikkelheto-tartalom">2</button>
+            <button type="btn" id="btn" class="klikkelheto-tartalom">3</button>
+            <button type="btn" id="btn" class="klikkelheto-tartalom">4</button>
+            <button type="btn" id="btn" class="klikkelheto-tartalom">5</button>
+            <button type="btn" id="btn" class="klikkelheto-tartalom">6</button>
+            <button type="btn" id="btn" class="klikkelheto-tartalom">7</button>
+            <button type="btn" id="btn" class="klikkelheto-tartalom">8</button>
+            <button type="btn" id="btn" class="klikkelheto-tartalom">9</button>
+
+        </div>
+
+    <div class="visszagomb">
+        <button onclick="window.location.href='meres_eredmenyei'" class="klikkelheto-tartalom button-container">Játék eredményei</button><br>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Human_MNIST</p>
+    </footer>
+<script src="/meres.js" type="text/javascript"></script>
+</body>
+</html>
